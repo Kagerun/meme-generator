@@ -64,11 +64,3 @@ export default function Main() {
         </main>
     )
 }
-
-const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-
-useEffect(()=>[
-    window.addEventListener("resize",()=>
-    setWindowWidth(window.innerWidth)
-)
-])
